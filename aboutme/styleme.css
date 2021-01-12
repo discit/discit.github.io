@@ -1,0 +1,18 @@
+body {
+    display: 90%;
+    background-color: lightblue;
+    margin: 10px 10px;
+}
+
+#title {
+    font-size: 3em;
+    font-family: Arial, Arial Black, Verdana;
+    font-weight: bold;
+    color: rgb(182, 161, 161);
+}
+h1>li #neighbor {
+    color: red;
+}
+#neighbor {
+    color: red;
+}
