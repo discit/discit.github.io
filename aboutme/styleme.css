@@ -1,7 +1,7 @@
 body {
     display: 90%;
     background-color: lightblue;
-    margin: 10px 10px;
+    margin-left: 10px;
 }
 
 #title {
@@ -16,3 +16,33 @@ h1>li #neighbor {
 #neighbor {
     color: red;
 }
+
+
+a:link {
+    text-decoration: none;
+    color: darkblue;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  a:hover {
+    color: hotpink;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+  p::first-letter {
+    font-size: 150%;
+  }
+  ol li span {
+      color: darkgoldenrod;
+  }
+  #validationLink {
+
+    margin-bottom: 20px;
+  }
