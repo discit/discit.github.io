@@ -10,6 +10,9 @@ body {
     background-color: #A8F0F0;
       
 }
+.topLabel {
+    text-align: center;
+}
 .midSection {
     border: 4px solid #C2E9E9;
     background-color: #E8FBFB;
@@ -45,8 +48,7 @@ div {
     align-content: center;
     margin-left: 10%;
     margin-right: 10%;
-     solid, white, 10px-thick border
- 
+    
 }
 #friend {
         float: left;
