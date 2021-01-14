@@ -25,19 +25,21 @@ body {
     background-image: url("./bannerbg.png");
     text-align: center;
     width: 100%;
+    
 }
 .topSection {
     
     background-image: url("./rbg.png");
+    border-top-left-radius: 15px;
     background-repeat: repeat-x;
     text-align: left;
         width: 630px;
-        border-top-left-radius: 15px;
+ 
        
       
 }
 .container {
-    border: 5px solid rgb(122, 114, 114);
+    border: 6px solid rgb(122, 114, 114);
     
     align-content: center;
     margin-left: 15%;
@@ -45,20 +47,14 @@ body {
     width: 880px;
     overflow: auto;
     position: relative;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     
 }
 
 .midLeftSection {
-    /* border: 3px solid #757a7a;
-    
-    padding: 5px;
-    margin-top: 5px;;
-    border-radius: 5px;
-    margin-left: 5px; */
     width: 610px;
     float: left;
     margin-bottom: 100px;
@@ -66,10 +62,7 @@ body {
     
 }
 
- .overviewImg {
-    
-    float: right;
-}
+
 .midRightSection {
     background-color: #A2B964;
     /* border: 4px solid #C2E9E9;
@@ -77,8 +70,11 @@ body {
     margin-top: 5px;; */
     border-radius: 15px;
     margin-left: 630px;
+    margin-right: 0px;
+    padding: 0px;
     height: 100%;
     width: 250px;
+    border-top-right-radius: 15px;
     
 
     
@@ -106,18 +102,16 @@ body {
     overflow: auto;
 
  }
- .contentLeftName {
 
- }
- 
  .contentFooter {
      position: absolute;
      text-align: center;
      background-color: #A2B964;
      bottom: 0px;
-     width: 95%;
+     width: 94%;
      height: 20px;
      padding-top: 3px;
+     padding-right: 0px;
      border-bottom-left-radius: 15px;
   
  }
@@ -131,6 +125,14 @@ body {
 
 div p img {
     float: left;
+}
+
+div.topSection img {
+    border-top-left-radius: 15px;
+}
+
+dl.midRightSection img {
+    border-top-right-radius: 15px;
 }
 
 .review-percent {
