@@ -30,7 +30,6 @@ body {
 .topSection {
     
     background-image: url("./rbg.png");
-    border-top-left-radius: 15px;
     background-repeat: repeat-x;
     text-align: left;
         width: 630px;
@@ -47,10 +46,8 @@ body {
     width: 880px;
     overflow: auto;
     position: relative;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
+ 
     
 }
 
@@ -58,7 +55,7 @@ body {
     width: 610px;
     float: left;
     margin-bottom: 100px;
-    border-top-left-radius: 15px;
+    
     
 }
 
@@ -68,13 +65,11 @@ body {
     /* border: 4px solid #C2E9E9;
     padding: 5px;
     margin-top: 5px;; */
-    border-radius: 15px;
-    margin-left: 630px;
+     margin-left: 630px;
     margin-right: 0px;
     padding: 0px;
-    height: 100%;
     width: 250px;
-    border-top-right-radius: 15px;
+   
     
 
     
@@ -108,11 +103,11 @@ body {
      text-align: center;
      background-color: #A2B964;
      bottom: 0px;
-     width: 94%;
+     width: 100%;
      height: 20px;
-     padding-top: 3px;
+     padding-top: 6px;
      padding-right: 0px;
-     border-bottom-left-radius: 15px;
+     
   
  }
  .validationLinks {
@@ -127,13 +122,6 @@ div p img {
     float: left;
 }
 
-div.topSection img {
-    border-top-left-radius: 15px;
-}
-
-dl.midRightSection img {
-    border-top-right-radius: 15px;
-}
 
 .review-percent {
     display: inline-block;
