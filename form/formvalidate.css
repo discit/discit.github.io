@@ -1,0 +1,45 @@
+.sub-part {
+
+    padding-left: 100px ;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    clear:left;
+}
+.item {
+    /* padding-left: 100px ; */
+    float: left;
+    width: 175px;
+    margin-top: 8px;
+}
+
+.small-input {
+    width: 150px;
+    height: 18px;
+    margin-top: 8px;
+}
+.big-input {
+    width: 500px;
+    height: 18px;
+}
+.radio-input {
+    /* float: left; */
+    
+    width: 20px;
+    height: 12px;;
+}
+.main-form {
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 2px solid grey;
+}
+.submit {
+    margin-left: 200px;
+       
+}
+.input-submit {
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+}
