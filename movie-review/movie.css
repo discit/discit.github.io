@@ -75,12 +75,13 @@ body {
     
 }
 .box {
-    /* border: 4px solid #C2E9E9; */
+    /* border: 1px solid #C2E9E9; */
     margin-top: 5px;;
     border-radius: 5px;
     width: 292px;
     
-    display: inline-block;
+    /* display: inline-block; */
+    float: left;
     
     margin: 0.5em;
     vertical-align: middle;
@@ -93,9 +94,7 @@ body {
     
     margin-top: 5px;;
     border-radius: 5px;
- 
     overflow: auto;
-
  }
 
  .contentFooter {
