@@ -1,5 +1,5 @@
 (function(){
-"use strict"
+"use strict";
 window.onload = function init() {
     document.getElementById("create").onclick = createAccount;
 }
