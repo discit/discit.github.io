@@ -1,37 +1,33 @@
-window.onload = init;
-function init() {
+(function(){
+"use strict"
+window.onload = function init() {
     document.getElementById("create").onclick = createAccount;
 }
 
+var accCreator = (function () {
+    let balance = 0;
+    let accountName = "";
+    return { 
+        accountCreate: function(name, amount)
+        {
+            balance = amount;
+            accountName = name;
+            return {balance, accountName}
+        }
+    }
+})();
 
 var accountInfoList = [];   
-var makeAccount = function () {
-    var balance = 0;
-    var accountName = "";
-    function setAccount(val) { 
-        privateCounter += val;
-    }
-    return { 
-        setAccout: function (name, deposit) { accountName = name; balance = deposit},
-        getAccountName: function () { return accountName; },
-        getBalance: function () { return balance; }
-    }
-};
-
 
 function createAccount() {
-    let acc = makeAccount();
-    let name = (document.getElementById("name").value)?document.getElementById("name").value:"";
-    let deposit = (document.getElementById("deposit").value)?document.getElementById("deposit").value:"";
-    acc.setAccout(name, deposit);
-
-    accountInfoList[accountInfoList.length] = acc;
-     let textareaValue = "";
+    let acc = accCreator.accountCreate(document.getElementById("name").value, document.getElementById("deposit").value);
+    accountInfoList.push(acc);
+    let textareaValue = "";
     for (let a of accountInfoList) {
-        textareaValue += "Account Name:" + a.getAccountName() + "\tBalance: " + a.getBalance() + "\n";
+        textareaValue += `Account Name: ${a.accountName}\t Balance: ${a.balance}\n`;
     }
     document.getElementById("textarea").value = textareaValue;      
 }
 
-
+})();
 
