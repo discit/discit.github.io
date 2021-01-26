@@ -4,3 +4,8 @@
     margin-left: auto;
     margin-right: auto;
 }
+.validationLinks {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+}
